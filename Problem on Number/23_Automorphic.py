@@ -17,7 +17,7 @@ def isAutomorphic(N):
     while N> 0:
         if N%10 != sq % 10:
             return False
-        
+        # 
         N//=10
         sq//=10
     return True
